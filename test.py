@@ -1,14 +1,16 @@
+# mmc
 
+a = int(input("digite a: "))
+b = int(input("digite b: "))
+n = 1
+c = a
 
+while (a % b) != 0:
+    a = c * n
+    n = n + 1
+print(a)
 
-def nova_funcao():
-    x = float(input("Digite o valor"))
-    if x > 0:
-        return "O numero é maior que 0"
-    elif x < 0:
-        return "O numero é menor que 0"
-    return "O numero é igual a 0"
-
-
-print(nova_funcao())
-
+"""
+5 * 2 = 10
+5 * 3 = 15
+"""
