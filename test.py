@@ -1,14 +1,10 @@
 # mmc
 
-a = int(input("digite a: "))
-b = int(input("digite b: "))
-n = 1
-c = a
 
-while (a % b) != 0:
-    a = c * n
-    n = n + 1
-print(a)
+
+
+
+print(mcc(17, 2))
 
 """
 5 * 2 = 10
