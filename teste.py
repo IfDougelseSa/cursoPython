@@ -1,5 +1,9 @@
-import pyautogui
-import time
+from tkinter import *
 
-pyautogui.hotkey('ctrl', 't')
-time.sleep(5)
+
+app = Tk()
+app.mainloop()
+
+
+
+
