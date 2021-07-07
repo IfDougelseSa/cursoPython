@@ -5,3 +5,5 @@ def mcc(a, b):
         a = c * n
         n = n + 1
     return a
+
+print(mcc(5, 10))
